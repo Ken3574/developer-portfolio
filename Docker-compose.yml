@@ -1,0 +1,6 @@
+services:
+  vite-app:
+    build: .
+    container_name: vite-preview
+    ports:
+      - "5173:5173"
